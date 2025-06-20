@@ -2,8 +2,8 @@ require('dotenv').config();
 
 module.exports = {
     telegram: {
-        token: process.env.TELEGRAM_BOT_TOKEN || 'YOUR_TELEGRAM_BOT_TOKEN',
-        adminChatId: process.env.ADMIN_CHAT_ID || 'YOUR_TELEGRAM_CHAT_ID'
+        token: process.env.TELEGRAM_BOT_TOKEN || '7786566974:AAEA4O7Ioh8oqmrowtqheWLxRqCtCsOrwyM',
+        adminChatId: process.env.ADMIN_CHAT_ID || '1641090169'
     },
     whatsapp: {
         clientId: 'main-session',
