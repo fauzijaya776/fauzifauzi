@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp-telegram-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Auto Sender Bot dengan Telegram Interface",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "telegram",
+    "bot",
+    "automation",
+    "broadcast"
+  ],
+  "author": "LazyDev",
+  "license": "ISC",
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "qrcode": "^1.5.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
